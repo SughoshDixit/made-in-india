@@ -12,6 +12,6 @@ This is a flask project.
 
 4. Change your db credentials in tabledef.py
 
-5. Using this command run the project: python app.py
+5. Run the file activate_run.cmd
 
 6.In browser open the port: 127.0.0.1:5000/
