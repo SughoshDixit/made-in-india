@@ -42,6 +42,9 @@
   transform: translateY(-50%);
 }
 
+.hero{
+  background-image: linear-gradient(to right, orange, white, green) !important;
+}
 
 .anim-typewriter{
   animation: typewriter 4s steps(44) 1s 1 normal both,
