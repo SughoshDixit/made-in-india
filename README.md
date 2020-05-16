@@ -2,8 +2,8 @@
 This is a repo for a web application that aims to try and find out an alternative Indian product instead of the widespreadly used product. This is an initiative to encourage all the Indian MSMEs as well as the alternatives for every single product that we use in our daily lives.
 # Django Vue Project ✌️ 🐍
 
-![Vue Logo](/src/assets/logo-vue.png "Vue Logo")
-![Django Logo](/src/assets/logo-django.png "Django Logo")
+![Vue Logo](https://vuejs.org/images/logo.png "Vue Logo")
+![Django Logo](https://static.djangoproject.com/img/icon-touch.e4872c4da341.png "Django Logo")
 
 ### Includes
 
@@ -23,11 +23,10 @@ This is a repo for a web application that aims to try and find out an alternativ
 | Location             |  Content                                   |
 |----------------------|--------------------------------------------|
 | `/backend`           | Django Project & Backend Config            |
-| `/backend/api`       | Django App (`/api`)                        |
+| `/backend/products`       | Django Products App (`/api/product`)                        |
 | `/src`               | Vue App .                                  |
 | `/src/main.js`       | JS Application Entry Point                 |
 | `/public/index.html` | Html Application Entry Point (`/`)         |
-| `/public/static`     | Static Assets                              |
 | `/dist/`             | Bundled Assets Output (generated at `yarn build`) |
 
 ## Prerequisites
