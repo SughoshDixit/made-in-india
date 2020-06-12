@@ -1,1 +1,0 @@
-D:\Python Projects\Made In India\env\Scripts\activate & python app.py
