@@ -1,6 +1,6 @@
-# Vuemmerce - Ecommerce Template
+# Made In India Website Using VueJS
 
-Responsive ecommerce template built with Vue.js and Nuxt.js
+built with Vue.js and Nuxt.js
 
 [![Build Status](https://travis-ci.org/ivanlori/Vuemmerce.svg)](https://travis-ci.org/ivanlori/Vuemmerce)
 [![devDependency Status](https://david-dm.org/ivanlori/Vuemmerce/dev-status.svg)](https://david-dm.org/ivanlori/Vuemmerce#info=devDependencies)
@@ -37,23 +37,8 @@ nuxt generate
 
 ---
 
-## Screenshot
 
-![Vuemmerce - Ecommerce Template](http://svilpress.altervista.org/screen.png "Vuemmerce - Ecommerce Browser Preview")
 
-**[Template Demo](https://vuemmerce-git-master.ivanlori.now.sh/)**
-
----
-
-## Authors
-
-- **Ivan Lori** - _Initial work_ - [ivanlori](https://github.com/ivanlori)
-
----
-
-## Contributing on Vuemmerce
-
-Thanks for your interest!
 
 To contribute, please ensure that you have stable Node.js and npm installed.
 
@@ -66,9 +51,6 @@ Follow the steps below.
 5. Push to the branch: git push origin my-new-feature
 6. Submit a pull request
 
-If you have any questions, feel free to email me at [ivan.lori@protonmail.com](mailto:ivan.lori@protonmail.com).
-
----
 
 ## Changelog
 
