@@ -1,0 +1,32 @@
+version: "3"
+services:
+  db:
+    build: ./db
+    volumes:
+      - ./db/datadir:/var/lib/mysql
+    expose:
+      - "3306"
+    environment:
+      - MYSQL_PASSWORD=Power4developeR
+      - MYSQL_DATABASE=madeinindia
+      - MYSQL_USER=developer
+  frontend:
+    build: ./frontend
+    volumes:
+      - ./frontend:/usr/src/frontend
+    environment:
+      - HOST=0.0.0.0
+    ports:
+      - "3000:3000"
+    command: npm run start
+  backend:
+    build: ./backend
+    volumes:
+      - /usr/src/backend
+    ports:
+      - "8000:8000"
+    command: python manage.py runserver 0.0.0.0:8000
+    links:
+      - db:db
+    tty: true
+    stdin_open: true

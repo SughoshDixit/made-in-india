@@ -1,0 +1,9 @@
+overwrite: true
+schema: 'http://localhost:8000/graphql'
+documents: 'graphql/**/*.gql'
+generates:
+  graphql/types.ts:
+    - typescript
+hooks:
+  afterOneFileWrite:
+    - prettier --write

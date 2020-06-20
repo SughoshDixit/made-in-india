@@ -1,0 +1,8 @@
+build:
+  docker:
+    frontend: frontend/Dockerfile
+    backend: backend/Dockerfile
+    db: db/Dockerfile
+run:
+  frontend: python backend/manage.py runserver
+  backend: yarn dev
