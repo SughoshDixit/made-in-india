@@ -10,15 +10,6 @@ services:
       - MYSQL_PASSWORD=Power4developeR
       - MYSQL_DATABASE=madeinindia
       - MYSQL_USER=developer
-  frontend:
-    build: ./frontend
-    volumes:
-      - ./frontend:/usr/src/frontend
-    environment:
-      - HOST=0.0.0.0
-    ports:
-      - "3000:3000"
-    command: npm run start
   backend:
     build: ./backend
     volumes:
@@ -30,3 +21,13 @@ services:
       - db:db
     tty: true
     stdin_open: true
+
+  frontend:
+    build: ./frontend
+    volumes:
+      - ./frontend:/usr/src/frontend
+    environment:
+      - HOST=0.0.0.0
+    ports:
+      - "3000:3000"
+    command: npm run start
