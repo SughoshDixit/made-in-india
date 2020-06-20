@@ -5,4 +5,7 @@ build:
     db: db/Dockerfile
 run:
   frontend: python backend/manage.py runserver
-  backend: yarn dev
+  backend:
+    command:
+      - yarn dev
+    image: backend
